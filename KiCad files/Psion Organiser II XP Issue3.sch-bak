@@ -1527,6 +1527,4 @@ Wire Wire Line
 Connection ~ 3100 8200
 Wire Wire Line
 	3100 8200 3450 8200
-Text Notes 1800 7950 0    79   ~ 0
-LCD supply
 $EndSCHEMATC
