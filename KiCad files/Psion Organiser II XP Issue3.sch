@@ -512,10 +512,10 @@ Wire Wire Line
 Wire Wire Line
 	4600 4050 1300 4050
 $Comp
-L Martins_Library:Conn_psion C?
+L Martins_Library:Conn_psion CN?
 U 1 1 6144C9B9
 P 1200 3950
-F 0 "C?" H 1192 4131 79  0000 C CNN
+F 0 "CN?" H 1192 4131 79  0000 C CNN
 F 1 "LOWBAT" H 1192 3996 79  0000 C CNN
 F 2 "" H 1200 3950 79  0001 C CNN
 F 3 "" H 1200 3950 79  0001 C CNN
@@ -603,10 +603,10 @@ F 3 "~" H 2800 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Martins_Library:Conn_psion C2
+L Martins_Library:Conn_psion CN2
 U 1 1 6149287D
 P 1200 2800
-F 0 "C2" H 1167 2956 79  0000 C CNN
+F 0 "CN2" H 1167 2956 79  0000 C CNN
 F 1 "Vcc2" H 1167 2821 79  0000 C CNN
 F 2 "" H 1200 2800 79  0001 C CNN
 F 3 "" H 1200 2800 79  0001 C CNN
@@ -650,10 +650,10 @@ F 3 "~" H 1550 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Martins_Library:Conn_psion C1
+L Martins_Library:Conn_psion CN1
 U 1 1 614B8458
 P 1200 3500
-F 0 "C1" H 1167 3656 79  0000 C CNN
+F 0 "CN1" H 1167 3656 79  0000 C CNN
 F 1 "0V" H 1167 3521 79  0000 C CNN
 F 2 "" H 1200 3500 79  0001 C CNN
 F 3 "" H 1200 3500 79  0001 C CNN
@@ -710,10 +710,10 @@ $EndComp
 Wire Wire Line
 	13300 4750 13300 4850
 $Comp
-L Martins_Library:Conn_psion C10
+L Martins_Library:Conn_psion CN10
 U 1 1 614DC881
 P 1200 4400
-F 0 "C10" H 1167 4556 79  0000 C CNN
+F 0 "CN10" H 1167 4556 79  0000 C CNN
 F 1 "PACON_B" H 1167 4421 79  0000 C CNN
 F 2 "" H 1200 4400 79  0001 C CNN
 F 3 "" H 1200 4400 79  0001 C CNN
@@ -721,25 +721,25 @@ F 3 "" H 1200 4400 79  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Martins_Library:Conn_psion C4
+L Martins_Library:Conn_psion CN4
 U 1 1 614EF3E8
-P 1200 1450
-F 0 "C4" H 1167 1606 79  0000 C CNN
-F 1 "Vcc1" H 1167 1471 79  0000 C CNN
-F 2 "" H 1200 1450 79  0001 C CNN
-F 3 "" H 1200 1450 79  0001 C CNN
-	1    1200 1450
+P 1200 1050
+F 0 "CN4" H 1167 1206 79  0000 C CNN
+F 1 "Vcc1" H 1167 1071 79  0000 C CNN
+F 2 "" H 1200 1050 79  0001 C CNN
+F 3 "" H 1200 1050 79  0001 C CNN
+	1    1200 1050
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C C15
 U 1 1 614EF70F
-P 3300 1700
-F 0 "C15" H 3415 1746 50  0000 L CNN
-F 1 "100n" H 3415 1655 50  0000 L CNN
-F 2 "" H 3338 1550 50  0001 C CNN
-F 3 "~" H 3300 1700 50  0001 C CNN
-	1    3300 1700
+P 3300 1300
+F 0 "C15" H 3415 1346 50  0000 L CNN
+F 1 "100n" H 3415 1255 50  0000 L CNN
+F 2 "" H 3338 1150 50  0001 C CNN
+F 3 "~" H 3300 1300 50  0001 C CNN
+	1    3300 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -755,19 +755,19 @@ F 3 "" H 1750 3600 50  0001 C CNN
 $EndComp
 Connection ~ 1750 3600
 Wire Wire Line
-	1750 3600 2200 3600
+	1750 3600 1900 3600
 $Comp
 L power:GND #PWR?
 U 1 1 614F15CF
-P 3300 1850
-F 0 "#PWR?" H 3300 1600 50  0001 C CNN
-F 1 "GND" H 3305 1677 50  0000 C CNN
-F 2 "" H 3300 1850 50  0001 C CNN
-F 3 "" H 3300 1850 50  0001 C CNN
-	1    3300 1850
+P 3300 1450
+F 0 "#PWR?" H 3300 1200 50  0001 C CNN
+F 1 "GND" H 3305 1277 50  0000 C CNN
+F 2 "" H 3300 1450 50  0001 C CNN
+F 3 "" H 3300 1450 50  0001 C CNN
+	1    3300 1450
 	1    0    0    -1  
 $EndComp
-Text GLabel 4000 1550 2    79   Input ~ 0
+Text GLabel 4000 1150 2    79   Input ~ 0
 Vcc1
 $Comp
 L Device:C C?
@@ -787,39 +787,39 @@ Connection ~ 6600 4100
 $Comp
 L Transistor_BJT:BCX51 TR15
 U 1 1 61501394
-P 2700 2500
-F 0 "TR15" H 2891 2454 50  0000 L CNN
-F 1 "PNP" H 2891 2545 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3" H 2900 2425 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/bcx51_bcx52_bcx53.pdf" H 2700 2500 50  0001 L CNN
-	1    2700 2500
+P 2700 1550
+F 0 "TR15" H 2891 1504 50  0000 L CNN
+F 1 "PNP" H 2891 1595 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 2900 1475 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/bcx51_bcx52_bcx53.pdf" H 2700 1550 50  0001 L CNN
+	1    2700 1550
 	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R23
 U 1 1 61508164
-P 1550 2500
-F 0 "R23" V 1343 2500 50  0000 C CNN
-F 1 "1K?" V 1434 2500 50  0000 C CNN
-F 2 "" V 1480 2500 50  0001 C CNN
-F 3 "~" H 1550 2500 50  0001 C CNN
-	1    1550 2500
+P 2350 1550
+F 0 "R23" V 2143 1550 50  0000 C CNN
+F 1 "1K?" V 2234 1550 50  0000 C CNN
+F 2 "" V 2280 1550 50  0001 C CNN
+F 3 "~" H 2350 1550 50  0001 C CNN
+	1    2350 1550
 	0    1    1    0   
 $EndComp
 $Comp
-L Martins_Library:Conn_psion C?
+L Martins_Library:Conn_psion CN?
 U 1 1 61536320
-P 1200 2400
-F 0 "C?" H 1167 2556 79  0000 C CNN
-F 1 "ON_B" H 1167 2421 79  0000 C CNN
-F 2 "" H 1200 2400 79  0001 C CNN
-F 3 "" H 1200 2400 79  0001 C CNN
-	1    1200 2400
+P 1200 1450
+F 0 "CN?" H 1167 1606 79  0000 C CNN
+F 1 "ON_B" H 1167 1471 79  0000 C CNN
+F 2 "" H 1200 1450 79  0001 C CNN
+F 3 "" H 1200 1450 79  0001 C CNN
+	1    1200 1450
 	-1   0    0    -1  
 $EndComp
-Connection ~ 3300 1550
+Connection ~ 3300 1150
 Wire Wire Line
-	3300 1550 4000 1550
+	3300 1150 4000 1150
 $Comp
 L Device:R R19?
 U 1 1 615591E8
@@ -1186,10 +1186,10 @@ Wire Wire Line
 	4750 5750 5650 5750
 Connection ~ 5200 1650
 $Comp
-L Martins_Library:Conn_psion C12
+L Martins_Library:Conn_psion CN12
 U 1 1 6153F0D2
 P 1200 4850
-F 0 "C12" H 1167 5006 79  0000 C CNN
+F 0 "CN12" H 1167 5006 79  0000 C CNN
 F 1 "PULSE" H 1167 4871 79  0000 C CNN
 F 2 "" H 1200 4850 79  0001 C CNN
 F 3 "" H 1200 4850 79  0001 C CNN
@@ -1197,10 +1197,10 @@ F 3 "" H 1200 4850 79  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Martins_Library:Conn_psion C11
+L Martins_Library:Conn_psion CN11
 U 1 1 6153F4FE
 P 1200 5800
-F 0 "C11" H 1167 5956 79  0000 C CNN
+F 0 "CN11" H 1167 5956 79  0000 C CNN
 F 1 "ALARM" H 1167 5821 79  0000 C CNN
 F 2 "" H 1200 5800 79  0001 C CNN
 F 3 "" H 1200 5800 79  0001 C CNN
@@ -1217,10 +1217,10 @@ Connection ~ 7800 6600
 Wire Wire Line
 	7800 6600 7800 6250
 $Comp
-L Martins_Library:Conn_psion C13
+L Martins_Library:Conn_psion CN13
 U 1 1 61562D29
 P 1200 5350
-F 0 "C13" H 1167 5506 79  0000 C CNN
+F 0 "CN13" H 1167 5506 79  0000 C CNN
 F 1 "READY" H 1167 5371 79  0000 C CNN
 F 2 "" H 1200 5350 79  0001 C CNN
 F 3 "" H 1200 5350 79  0001 C CNN
@@ -1274,52 +1274,39 @@ VPP regulator\n21 V, 50 msec, 50 mA
 Text Notes 5950 5550 0    79   ~ 0
 Voltage pump to 33V
 Wire Wire Line
-	2800 2700 2800 2900
+	2800 1750 2800 2900
 Connection ~ 2800 2900
-$Comp
-L Transistor_BJT:BCX51 TR16
-U 1 1 61669361
-P 2350 2000
-F 0 "TR16" H 2541 1954 50  0000 L CNN
-F 1 "PNP" H 2541 2045 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3" H 2550 1925 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/bcx51_bcx52_bcx53.pdf" H 2350 2000 50  0001 L CNN
-	1    2350 2000
-	1    0    0    1   
-$EndComp
 $Comp
 L Martins_Library:Conn_psion SLOT3
 U 1 1 6166992F
-P 900 1900
-F 0 "SLOT3" H 867 2056 79  0000 C CNN
-F 1 "AC_B" H 867 1921 79  0000 C CNN
-F 2 "" H 900 1900 79  0001 C CNN
-F 3 "" H 900 1900 79  0001 C CNN
-	1    900  1900
+P 900 1950
+F 0 "SLOT3" H 867 2106 79  0000 C CNN
+F 1 "AC_B" H 867 1971 79  0000 C CNN
+F 2 "" H 900 1950 79  0001 C CNN
+F 3 "" H 900 1950 79  0001 C CNN
+	1    900  1950
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R24
 U 1 1 61679F82
-P 2100 1800
-F 0 "R24" H 2170 1846 50  0000 L CNN
-F 1 "47K" H 2170 1755 50  0000 L CNN
-F 2 "" V 2030 1800 50  0001 C CNN
-F 3 "~" H 2100 1800 50  0001 C CNN
-	1    2100 1800
+P 1550 1800
+F 0 "R24" H 1620 1846 50  0000 L CNN
+F 1 "47K" H 1620 1755 50  0000 L CNN
+F 2 "" V 1480 1800 50  0001 C CNN
+F 3 "~" H 1550 1800 50  0001 C CNN
+	1    1550 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 2300 2800 1550
+	2800 1350 2800 1150
 Wire Wire Line
-	1300 2500 1400 2500
-Wire Wire Line
-	1700 2500 1800 2500
+	1300 1550 1900 1550
 $Comp
-L Martins_Library:Conn_psion C8
+L Martins_Library:Conn_psion CN8
 U 1 1 6140A883
 P 1200 6250
-F 0 "C8" H 1167 6406 79  0000 C CNN
+F 0 "CN8" H 1167 6406 79  0000 C CNN
 F 1 "OSC" H 1167 6271 79  0000 C CNN
 F 2 "" H 1200 6250 79  0001 C CNN
 F 3 "" H 1200 6250 79  0001 C CNN
@@ -1410,10 +1397,10 @@ Wire Wire Line
 Wire Wire Line
 	1500 6350 1300 6350
 $Comp
-L Martins_Library:Conn_psion C3
+L Martins_Library:Conn_psion CN3
 U 1 1 6145DA60
 P 1200 6900
-F 0 "C3" H 1167 7056 79  0000 C CNN
+F 0 "CN3" H 1167 7056 79  0000 C CNN
 F 1 "V_LCD" H 1167 6921 79  0000 C CNN
 F 2 "" H 1200 6900 79  0001 C CNN
 F 3 "" H 1200 6900 79  0001 C CNN
@@ -1472,66 +1459,30 @@ Wire Wire Line
 Connection ~ 3050 7000
 Text Notes 1750 6750 0    79   ~ 0
 LCD supply
-$Comp
-L Device:Q_NPN_BCE TR17
-U 1 1 614295F3
-P 1800 2100
-F 0 "TR17" H 1991 2146 50  0000 L CNN
-F 1 "NPN" H 1991 2055 50  0000 L CNN
-F 2 "" H 2000 2200 50  0001 C CNN
-F 3 "~" H 1800 2100 50  0001 C CNN
-	1    1800 2100
-	0    1    -1   0   
-$EndComp
+Connection ~ 1550 1150
 Wire Wire Line
-	2450 1800 2450 1550
-Connection ~ 2450 1550
-Connection ~ 2100 1550
+	1300 1150 1550 1150
 Wire Wire Line
-	1300 1550 2100 1550
+	1550 1150 1550 1650
 Wire Wire Line
-	2100 1550 2100 1650
-Wire Wire Line
-	2100 1550 2450 1550
-Wire Wire Line
-	2100 2000 2100 1950
-Wire Wire Line
-	2000 2000 2100 2000
-Connection ~ 2100 2000
-Wire Wire Line
-	2100 2000 2150 2000
-Wire Wire Line
-	1800 2300 1800 2500
-Connection ~ 1800 2500
+	1550 2050 1550 1950
+Connection ~ 1550 2050
 $Comp
 L Device:R R?
 U 1 1 614D71E6
-P 1350 2000
-F 0 "R?" V 1143 2000 50  0000 C CNN
-F 1 "1K?" V 1234 2000 50  0000 C CNN
-F 2 "" V 1280 2000 50  0001 C CNN
-F 3 "~" H 1350 2000 50  0001 C CNN
-	1    1350 2000
+P 1250 2050
+F 0 "R?" V 1043 2050 50  0000 C CNN
+F 1 "1K?" V 1134 2050 50  0000 C CNN
+F 2 "" V 1180 2050 50  0001 C CNN
+F 3 "~" H 1250 2050 50  0001 C CNN
+	1    1250 2050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1500 2000 1600 2000
+	1000 2050 1100 2050
+Connection ~ 2800 1150
 Wire Wire Line
-	1000 2000 1200 2000
-Wire Wire Line
-	2450 1550 2800 1550
-Connection ~ 2800 1550
-Wire Wire Line
-	2800 1550 3300 1550
-Wire Wire Line
-	1800 2500 2500 2500
-Wire Wire Line
-	2450 2200 2450 2900
-Wire Wire Line
-	2200 2900 2450 2900
-Connection ~ 2450 2900
-Wire Wire Line
-	2450 2900 2800 2900
+	2800 1150 3300 1150
 Wire Wire Line
 	5800 4100 6600 4100
 Wire Wire Line
@@ -1570,8 +1521,8 @@ Wire Wire Line
 	3450 3600 4000 3600
 Text Notes 3750 3800 2    79   ~ 0
 Power on / Standby control
-Text Notes 2500 1300 2    50   ~ 0
-not sure about TR16/17
+Text Notes 2500 900  2    50   ~ 0
+not sure about TR16
 Wire Wire Line
 	3500 7000 3500 6350
 Wire Wire Line
@@ -1582,16 +1533,10 @@ Wire Wire Line
 	4600 3700 4600 4050
 Text Notes 8800 5250 0    50   ~ 0
 1K R added by MJP
-Text Notes 1750 1150 0    50   ~ 0
+Text Notes 1850 750  0    50   ~ 0
 added by MJP
 Wire Notes Line
-	650  1200 650  2650
-Wire Notes Line
-	650  2650 3150 2650
-Wire Notes Line
-	3150 2650 3150 1200
-Wire Notes Line
-	3150 1200 650  1200
+	3150 800  650  800 
 Wire Wire Line
 	1300 4500 4600 4500
 Wire Wire Line
@@ -1601,4 +1546,70 @@ Wire Wire Line
 Connection ~ 9650 5050
 Wire Wire Line
 	9650 5050 13000 5050
+Text Notes 2050 6550 0    50   ~ 0
+contrast wheel
+Wire Wire Line
+	1400 2050 1550 2050
+Wire Wire Line
+	2200 2900 2800 2900
+Wire Wire Line
+	1550 1150 2800 1150
+Connection ~ 1900 1550
+Wire Wire Line
+	1900 1550 2200 1550
+$Comp
+L Martins_Library:Conn_psion CN?
+U 1 1 614AD795
+P 1200 2350
+F 0 "CN?" H 1167 2506 79  0000 C CNN
+F 1 "AC" H 1167 2371 79  0000 C CNN
+F 2 "" H 1200 2350 79  0001 C CNN
+F 3 "" H 1200 2350 79  0001 C CNN
+	1    1200 2350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2450 1900 2450
+$Comp
+L Device:R R?
+U 1 1 614BE4FF
+P 1900 2650
+F 0 "R?" H 1970 2696 50  0000 L CNN
+F 1 "47K" H 1970 2605 50  0000 L CNN
+F 2 "" V 1830 2650 50  0001 C CNN
+F 3 "~" H 1900 2650 50  0001 C CNN
+	1    1900 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 1900 2450
+Connection ~ 1900 3600
+Wire Wire Line
+	1900 3600 2200 3600
+Wire Wire Line
+	1900 2800 1900 3600
+Wire Wire Line
+	1900 2500 1900 2450
+Wire Wire Line
+	1900 2450 1900 2250
+Wire Wire Line
+	1550 2050 1600 2050
+$Comp
+L Transistor_BJT:BCX51 TR16
+U 1 1 61669361
+P 1800 2050
+F 0 "TR16" H 1991 2004 50  0000 L CNN
+F 1 "PNP" H 1991 2095 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 2000 1975 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/bcx51_bcx52_bcx53.pdf" H 1800 2050 50  0001 L CNN
+	1    1800 2050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1900 1550 1900 1850
+Wire Notes Line
+	650  2800 3150 2800
+Wire Notes Line
+	3150 2800 3150 800 
+Wire Notes Line
+	650  800  650  2800
 $EndSCHEMATC
