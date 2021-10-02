@@ -1760,8 +1760,8 @@ Wire Wire Line
 	1300 10600 1700 10600
 Wire Wire Line
 	1300 10800 1700 10800
-Text Notes 6450 10800 0    79   ~ 0
-Semi custom logic IC clock moved from \nmainboard at Issue 3 PCB
+Text Notes 6750 10750 0    79   ~ 0
+Semi-custom logic IC clock moved\nfrom mainboard at Issue 3 PCB
 Text Notes 6400 9850 0    59   ~ 0
 unsure about pin numbers \nNAND gate type\nand component values
 Text Notes 2250 4900 0    79   ~ 0
