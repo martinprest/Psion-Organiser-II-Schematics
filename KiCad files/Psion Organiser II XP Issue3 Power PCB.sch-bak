@@ -300,26 +300,11 @@ Wire Wire Line
 	9250 4100 9700 4100
 Wire Wire Line
 	9550 2200 9700 2200
-$Comp
-L Device:R R5
-U 1 1 613E9641
-P 8000 2600
-F 0 "R5" H 8070 2646 50  0000 L CNN
-F 1 "510K" H 8070 2555 50  0000 L CNN
-F 2 "" V 7930 2600 50  0001 C CNN
-F 3 "~" H 8000 2600 50  0001 C CNN
-	1    8000 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8000 2850 8000 2800
 Wire Wire Line
-	8000 2200 8000 2450
-Wire Wire Line
 	7500 3650 7500 3250
 Connection ~ 8000 2800
-Wire Wire Line
-	8000 2800 8000 2750
 $Comp
 L Device:Q_NPN_BCE TR2
 U 1 1 613F3732
@@ -494,18 +479,18 @@ F 3 "" H 10650 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R19?
+L Device:R R18?
 U 1 1 615591E8
-P 10150 7950
-F 0 "R19?" H 10220 7996 50  0000 L CNN
-F 1 "47K" H 10220 7905 50  0000 L CNN
-F 2 "" V 10080 7950 50  0001 C CNN
-F 3 "~" H 10150 7950 50  0001 C CNN
-	1    10150 7950
+P 10150 7800
+F 0 "R18?" H 10220 7846 50  0000 L CNN
+F 1 "47K" H 10220 7755 50  0000 L CNN
+F 2 "" V 10080 7800 50  0001 C CNN
+F 3 "~" H 10150 7800 50  0001 C CNN
+	1    10150 7800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10150 7800 10150 2200
+	10150 7650 10150 2200
 Connection ~ 10150 2200
 Wire Wire Line
 	10150 2200 10350 2200
@@ -813,9 +798,6 @@ Wire Notes Line
 	11800 7650 11800 6900
 Wire Notes Line
 	11800 6900 10850 6900
-Connection ~ 10150 8100
-Wire Wire Line
-	10150 8100 10350 8100
 $Comp
 L Connector:Conn_01x27_Female Mainboard
 U 1 1 6145D62A
@@ -1314,7 +1296,7 @@ F 0 "C1" H 2518 6146 50  0000 L CNN
 F 1 "1u" H 2518 6055 50  0000 L CNN
 F 2 "" H 2438 5950 50  0001 C CNN
 F 3 "~" H 2400 6100 50  0001 C CNN
-F 4 "30 V" H 2550 5950 50  0000 L CNN "Max Voltage"
+F 4 "30 V" H 2650 6100 50  0000 L CNN "Max Voltage"
 	1    2400 6100
 	1    0    0    -1  
 $EndComp
@@ -1852,8 +1834,6 @@ Wire Wire Line
 Connection ~ 14300 6800
 Wire Wire Line
 	14300 6800 15000 6800
-Wire Wire Line
-	5950 8100 10150 8100
 Text Notes 1200 5100 0    79   ~ 0
 1024 Hz
 Wire Wire Line
@@ -1939,7 +1919,7 @@ F 3 "~" H 14550 1500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6800 3750 5950 3750
-Text Notes 15050 2500 0    59   ~ 0
+Text Notes 15000 2500 0    59   ~ 0
 pullup
 Text Notes 14900 850  0    59   ~ 0
 9V PP3
@@ -2101,5 +2081,29 @@ F 2 "" H 10150 10400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS132" H 10150 10400 50  0001 C CNN
 	3    10150 10400
 	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 2200 10150 2050
+Wire Wire Line
+	5950 8100 10150 8100
+Wire Wire Line
+	10150 7950 10150 8100
+Connection ~ 10150 8100
+Wire Wire Line
+	10150 8100 10350 8100
+Wire Wire Line
+	8000 2800 8000 2750
+Wire Wire Line
+	8000 2200 8000 2450
+$Comp
+L Device:R R5
+U 1 1 613E9641
+P 8000 2600
+F 0 "R5" H 8070 2646 50  0000 L CNN
+F 1 "510K" H 8070 2555 50  0000 L CNN
+F 2 "" V 7930 2600 50  0001 C CNN
+F 3 "~" H 8000 2600 50  0001 C CNN
+	1    8000 2600
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

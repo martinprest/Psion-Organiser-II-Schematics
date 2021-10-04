@@ -2083,8 +2083,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS132" H 10150 10400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	10150 2200 10150 2050
-Wire Wire Line
 	5950 8100 10150 8100
 Wire Wire Line
 	10150 7950 10150 8100
